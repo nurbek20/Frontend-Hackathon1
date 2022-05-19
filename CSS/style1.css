@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+/* div */
+.content {
+    background-color:rgb(82, 27, 82);
+    color:white;
+    padding: 15px ;
+}
+span {
+    color:rgb(160, 120, 45)
+}
+.content__div {
+    display: flex;
+    justify-content: space-between;
+}
+/* navbar */
+#navbar {
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 2px 0 20px;
+}
+
+.navbar {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    height: 50px;
+    width: 70%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li .n {
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: rgb(90, 18, 90);
+    color: #fff;
+    border-radius:4px;
+}
+/* header */
+#header {
+    width: 100%;
+    height: 800px;
+    background-image: url('../foto1/Rectangle\ 70.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#header::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #13121377;
+    color:#fff;
+}
+.header__content {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.header__text {
+    width: 50%;
+    height: 500px;
+    z-index: 1;
+}
+.btn {
+    padding: 20px 30px;
+    border-radius: 10px;
+    border:none;
+    background-color: orange;
+    cursor: pointer;
+}
+.header__text h1 {
+    font-size: 40px;
+}
+.header__text p{
+    font-size: 20px;
+    margin: 40px 0;
+}
+.header__icon {
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top:-20%;
+
+} 
+.header__icon i{
+    margin: 20px 0;
+}
+/* section1 */
+.hidden {
+    padding: 50px 0;
+    color: #333;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    margin-left: -200px;
+    white-space: nowrap;
+    font-size: 40px;
+    color: rgb(120, 119, 119);
+}
+.hidden::after, .hidden::before{
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: black;
+
+}
+.section__box {
+    display: flex;
+    justify-content: space-between;
+}
+.section1__box {
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 1px 0 5px;
+}
+.box {
+    margin: 16px;
+    width: 85%;
+    height: 370px;
+}
+h5{
+    margin: 30px;
+}
+.p {
+    color:darkorchid;
+    margin: 40px 0 0 0;
+}
+
+
+/*sectuin2*/
+.section2__content {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section2__img1 {
+    width: 340px;
+    height: 330px;
+    background-image: url('../foto1/Rectangle\ 78.png');
+    background-repeat: no-repeat;
+}
+.section2__img2 {
+    width: 340px;
+    height: 330px;
+    background-image: url('../foto1/Rectangle\ 79.png');
+    background-repeat: no-repeat;
+}
+.section2__img3 {
+    width: 340px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-image: url('../foto1/Rectangle\ 80\(1\).png');
+}
+.section2__img4 {
+    width: 340px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-image: url('../foto1/Rectangle\ 81.png');
+}.section2__img5 {
+    width: 340px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-image: url('../foto1/Rectangle\ 82.png');
+}.section2__img6 {
+    width: 340px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-image: url('../foto1/Rectangle\ 83.png');
+}
+.boxImg::after{
+    position: absolute;
+    content: '';
+    width: 340px;
+    height: 303px;
+    background-color: #171616a1;
+}
+.rabota{
+    position: absolute;
+    margin-top: 260px;
+    z-index: 1;
+    color: #fff;
+}
+.rabot {
+    position: absolute;
+    z-index: 1;
+    color:#fff;
+    margin-top: 230px;
+}
+.btn1 {
+    margin:20px;
+    padding: 20px 130px;
+    border-radius: 5px;
+    border:none;
+    background-color:blueviolet;
+    cursor: pointer;
+    color:#fff;
+}
+/* section3 */
+.productions {
+    display: flex;
+    justify-content: space-between;
+}
+.productImg1 {
+    width: 340px;
+    height: 300px;
+    background-image: url('../foto1/Rectangle\ 84.png');
+}
+.productImg2 {
+    width: 340px;
+    height: 300px;
+    background-image: url('../foto1/Rectangle\ 85.png');
+}.productImg3 {
+    width: 340px;
+    height: 300px;
+    background-image: url('../foto1/Rectangle\ 86.png');
+}
+/* section4*/
+.section__price {
+    padding: 20px 0;
+    width: 272px;
+    box-shadow: 1px 1px 10px;
+}
+.pr {
+    padding: 20px 0;
+}
+.color {
+    color:blueviolet;
+}
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* section5 */
+.nike {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* section6 */
+.section__team {
+    display: flex;
+    justify-content: space-between;
+}
+.team {
+    margin: 20px 0;
+}
+.team__contact {
+    text-align: center;
+    padding: 40px 0;
+}
+.tp {
+    margin: 20px 0;
+}
+.team__input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.team__input1 {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+/* footer */
+#footer {
+    background-color: rgb(14, 13, 13);
+    color: white;
+    height: 400px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.foot {
+    padding: 5% 0;
+    width: 270px;
+    height: 400px;
+}
+h4 {
+    padding: 10px 0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info a {
+    text-decoration: none;
+    color: rgb(82, 78, 78);
+    padding: 10px 0;
+}
+.company p {
+    color: rgb(82, 78, 78);
+    
+}
+.contact p{
+    color: rgb(82, 78, 78);
+    padding: 10px 0;
+}
+.set p {
+    color: rgb(82, 78, 78);
+    padding: 10px 0;
+}
